@@ -3,18 +3,25 @@
 打开SampleScene 点击Main Camera 填入DEtest数据，运行点击按钮即可测试连接数据库
 
 # 数据库测试
+
 1.确保数据库可以正常连接，通过数据库连接软件测试
+
 ![file](http://www.euph.cn/wp-content/uploads/2022/04/image-1649603930379.png)
 
 # 安装Nuget包
+
 安装Mysql 的Nuget 包，
+
 https://github.com/GlitchEnzo/NuGetForUnity/releases
+
 选择一个Release 的 unitypackage,安装进Unity
 
 项目调整为Mono 使用.Net4.x
+
 ![file](http://www.euph.cn/wp-content/uploads/2022/04/image-1649604151301.png)
 
 取消勾选 Assembly Version Validation
+
 ![file](http://www.euph.cn/wp-content/uploads/2022/04/image-1649604266516.png)
 
 打开Unity Nuget manager，搜索Mysql安装
@@ -23,9 +30,13 @@ https://github.com/GlitchEnzo/NuGetForUnity/releases
 第一个即为最新版本的 mysql驱动 8.0.28
 
 ![file](http://www.euph.cn/wp-content/uploads/2022/04/image-1649604360407.png)
+
 安装完成后，Assets下会多出一个Packages文件夹，里面即mysql需要用到的dll
+
 # 测试
+
 此时即可通过代码连接Mysql
+
 参考代码：
 ```
 using MySql.Data.MySqlClient;
