@@ -1,6 +1,6 @@
 # UnityUseMysql
 
-打开SampleScene 点击Main Camera 填入DEtest数据，运行点击按钮即可测试连接数据库
+打开SampleScene 点击Main Camera 填入DBtest数据，运行点击按钮即可测试连接数据库
 
 # 数据库测试
 
