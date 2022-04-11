@@ -1,5 +1,11 @@
 # UnityUseMysql
 
+运行有编译错误，需要删除
+![image](https://user-images.githubusercontent.com/48428549/162670007-b1904be3-8608-4a51-882b-2f803648d881.png)
+
+![image](https://user-images.githubusercontent.com/48428549/162670108-f88c6ce7-703c-4922-81e8-496dd5264ecb.png)
+
+
 打开SampleScene 点击Main Camera 填入DBtest数据，运行点击按钮即可测试连接数据库
 
 # 数据库测试
